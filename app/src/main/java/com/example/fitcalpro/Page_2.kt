@@ -16,7 +16,7 @@ class Page_2 : AppCompatActivity() {
 
         var button1 = findViewById<Button>(R.id.button_reg1)
         button1.setOnClickListener {
-            val intent1 = Intent(this, Page3::class.java)
+            val intent1 = Intent(this, Register_Page::class.java)
             startActivity(intent1)
         }
 
