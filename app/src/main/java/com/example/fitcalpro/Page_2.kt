@@ -22,7 +22,7 @@ class Page_2 : AppCompatActivity() {
 
         var button2 = findViewById<Button>(R.id.button_log)
         button2.setOnClickListener {
-            val intent2 = Intent(this, Page3_Log::class.java)
+            val intent2 = Intent(this, Login_Page::class.java)
             startActivity(intent2)
         }
     }
