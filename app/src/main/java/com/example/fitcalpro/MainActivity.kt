@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         //Get started button navigate
         var buttontwo = findViewById<Button>(R.id.button_get_st)
         buttontwo.setOnClickListener {
-            val intent2 = Intent(this, page21::class.java)
+            val intent2 = Intent(this, Page_2::class.java)
             startActivity(intent2)
         }
     }
