@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/dashboard"
+        />
+
+    <item
+        android:id="@+id/food"
+        android:title="Food"
+        android:icon="@drawable/food"
+        />
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/search"
+        />
+
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        android:icon="@drawable/more"
+        />
+
+</menu>
