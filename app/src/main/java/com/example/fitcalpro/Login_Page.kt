@@ -27,7 +27,7 @@ class Login_Page : AppCompatActivity() {
             if (email.isEmpty() || password.isEmpty()) {
                 Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
             } else {
-                val intent = Intent(this, home::class.java)
+                val intent = Intent(this, Home_Page::class.java)
                 startActivity(intent)
                 // Optionally, finish the current activity so the user can't navigate back
                 finish()

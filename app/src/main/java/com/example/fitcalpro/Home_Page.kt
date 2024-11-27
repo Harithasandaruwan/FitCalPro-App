@@ -28,13 +28,13 @@ class Home_Page : AppCompatActivity() {
 
         navigationView = findViewById(R.id.bottom_navigation_bar)
 
-        supportFragmentManager.beginTransaction().replace(R.id.h_main, Dashboard_Fragment()).commit()
+        supportFragmentManager.beginTransaction().replace(R.id.h_main, Dashboard()).commit()
         navigationView.selectedItemId = R.id.dashboard
 
         navigationView.setOnNavigationItemSelectedListener { item ->
             var fragment: Fragment? = null
             when (item.itemId) {
-                R.id.dashboard -> fragment = Dashboard_Fragment()
+                R.id.dashboard -> fragment = Dashboard()
                 R.id.food -> fragment = Food_Fragment()
                 R.id.search -> fragment = Search_Fragment()
                 R.id.more -> fragment = More_Fragment()
